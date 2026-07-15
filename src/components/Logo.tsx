@@ -13,7 +13,14 @@ export default function Logo({ className }: { className?: string }) {
       aria-label="RENOTRANS"
     >
       <defs>
-        <linearGradient id={gradientId} x1="0%" y1="0%" x2="100%" y2="100%">
+        <linearGradient
+          id={gradientId}
+          gradientUnits="userSpaceOnUse"
+          x1="0"
+          y1="0"
+          x2="300"
+          y2="0"
+        >
           <stop offset="0%" stopColor="#f0cd7a" />
           <stop offset="55%" stopColor="#d6a83e" />
           <stop offset="100%" stopColor="#a9822b" />
