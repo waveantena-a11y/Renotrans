@@ -55,7 +55,7 @@ export default function Logo({ className }: { className?: string }) {
         fontWeight="800"
         fontSize="38"
         letterSpacing="0.5"
-        fill={`url(#${gradientId})`}
+        fill="#c8922f"
       >
         RENO
       </text>
@@ -67,7 +67,7 @@ export default function Logo({ className }: { className?: string }) {
         fontWeight="800"
         fontSize="38"
         letterSpacing="0.5"
-        fill={`url(#${gradientId})`}
+        fill="#c8922f"
       >
         RANS
       </text>
